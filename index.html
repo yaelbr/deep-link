@@ -8,18 +8,16 @@
 
 </head>
 
-<body>
-    <a href="OpenPath://"
-        style="display: block; padding: 10px; background: blue; color: white; text-align: center; text-decoration: none; border-radius: 5px;">
-        פתח את OpenPath
-    </a>
+<a href="#" onclick="openApp()"
+    style="display: block; padding: 10px; background: blue; color: white; text-align: center; text-decoration: none; border-radius: 5px;">
+פתח את האפליקציה!
+</a>
 
-    </div>
-    </a>
-
-    <script>
-     
-    </script>
+<script>
+    function openApp() {
+        window.location.href = "OpenPath://";
+    }
+</script>
 </body>
 
 </html>
